@@ -200,7 +200,7 @@ router.post('/checkwishlist', async (req, res, next) => {
 /* --------------------------------------------------------------------------------------------------- */
 
 
-/* DELETE : Supprimer un livre de wishList  */
+/* DELETE : Supprimer un livre de la wishList d'un utilisateur  */
 router.delete('/wishlist/delete/:token/:bookid', async (req, res) => {
   let token = req.params.token;
   let bookid = req.params.bookid;
